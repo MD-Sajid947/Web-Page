@@ -1,0 +1,78 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+    background-image: url(forest-5375005_1920.jpg);
+    background-size: 100%;
+    background-attachment: fixed;
+}
+
+h3{
+    text-align: center;
+    margin: 50px;
+    background-color: rgb(179, 255, 1);
+    width:27%;
+    border-style: solid;
+    border-width: 4px;
+    border-radius: 20px;
+}
+
+#ndh{
+    display: flex;
+    justify-content: center;
+    /* border-style: solid;
+    border-width: 4px;
+    border-radius: 20px; */
+}
+
+h2{
+    /* text-align: center; */
+    font-family: 'Gill Sans';
+    color: rgb(113, 233, 14);
+    text-decoration: underline black;
+    padding-left: 40px;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:cadetblue;
+    margin: 10px;
+    border-style: solid;
+    border-width: 3px;
+    border-color:indigo;
+    border-radius: 10px;
+}
+
+.all1{
+    display: flex;
+    justify-content: center;
+}
+.head{
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-size: larger;
+    color: white;
+}
+
+.link{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    color: blue;
+    a { color: red;}
+}
+
+.detail{
+    font-family: 'Gill Sans';
+    /* font-weight: bolder; */
+    text-align: center;
+    color:white;
+}
